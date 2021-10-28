@@ -1,0 +1,80 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	min-width: 600px;
+}
+.logo{
+	width: 10%;
+	height: 7%;
+	object-fit: fill;
+	margin-left: 5.5%;
+	
+	
+}
+.logo:hover{
+	cursor: pointer;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+.title{
+	color: #fff;
+	font-size: 3.7rem;
+	align-self: center;
+	margin-bottom: 2%;
+}
+.profiles{
+	display: flex;
+	justify-content: center;
+}
+.profiles > div{
+	align-self: center;
+	margin-left: 3.5%;
+	margin-bottom: 5%;
+	
+}
+.profiles > div:first-child{
+	margin-left: 0;
+}
+.profiles > div > img{
+	width: 200px;
+	height: auto;
+	margin-bottom: 6%;
+	border: 2px solid transparent ;
+	border-radius: 4.5px;
+	box-sizing: border-box;
+}
+
+.profiles > div > img:hover{
+	border-color: #fff;
+	cursor: pointer;
+}
+.profiles > div > p{
+	color: #778899;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.manage-profiles{
+	color: #778899;
+	letter-spacing: .25em;
+	text-align: center;
+	border: 1px solid #778899 ;
+	width: fit-content;
+	align-self: center;
+	padding: 0.6rem 2rem;
+	
+}
+
+.manage-profiles:hover{
+	color: #fff;
+	border-color: #fff;
+	cursor: pointer;
+}
