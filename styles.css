@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: rgba(244,164,96,.55);
+	
+}
+
+a{
+	color: #6D94B2;
+	display: block;
+	text-align: center;
+	font-family: "architects daughter",monospace;
+	font-weight: normal;
+	font-size: 3.5rem;
+	
+	margin: 2.5rem 0;
+	
+}
+a:hover{
+	filter: opacity(0.5);
+}
+a:visited{
+	color: #6D94B2;
+}
